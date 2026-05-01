@@ -1112,8 +1112,8 @@ def main():
     # 5. 输出
     print_solution(best, dm)
 
-    # 6. 对比基准（问题1≈208.5万元） 这里换成我们计算得到的数值
-    compare_with_baseline(best, 2084646.0)
+    # 6. 对比基准（问题1≈372.54万元）
+    compare_with_baseline(best, 3725434.19)
 
     return best, history
 
